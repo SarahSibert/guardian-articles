@@ -1,0 +1,25 @@
+{
+    "name": "sarahsibert/guardian-articles",
+    "description": "Get the lastest news articles from The Guardian.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SarahSibert",
+            "email": "mail@sarahsibert.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "SarahSibert\\GuardianArticles\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "SarahSibert\\GuardianArticles\\Tests\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
